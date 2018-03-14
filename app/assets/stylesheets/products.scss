@@ -2,9 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-th{
-	padding-right:20px;
-	width:15%;
+.products{
+	padding-top:10px;
 }
 
 .productName{
@@ -12,9 +11,10 @@ th{
 	font-weight: bold;
 }
 
-.products{
-	padding-top:10px;
-}
 .productDesc{
 	font-style:italic;
+}
+
+.productPrice{
+	font-weight: bold;
 }

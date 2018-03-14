@@ -14,6 +14,7 @@
               <span class="productName"><%= product.name %></span><br/>
               <span class="productDesc"><%= product.description %></span><br/>
               <span class="colour"><%= product.colour %></span><br/>
+              <span class="productPrice"><%= product.price %>$</span><br/>
               <%= image_tag(product.image_url, class: "img-responsive") %>
               <span class="Show"><%= link_to 'Show', product %></span>
               <span class="Edit"><%= link_to 'Edit', edit_product_path(product) %></span>
