@@ -1,33 +1,30 @@
 <p id="notice"><%= notice %></p>
 
-<h1>List of all products</h1>
 <br/>
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Description</th>
-      <th>Image</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<div class="container anchor" id="productList">
+      <div class="row">
+        <div class="headerTitle">
+          <div class="header">
+            <h1>List of products</h1>
+          </div><br/>
+        </div>
+        <span>
+          <% @products.each do |product| %>
+            <div class='col-sm-2 col-md-4 products'>
+              <span class="productName"><%= product.name %></span><br/>
+              <span class="productDesc"><%= product.description %></span><br/>
+              <span class="colour"><%= product.colour %></span><br/>
+              <%= image_tag(product.image_url, class: "img-responsive") %>
+              <span class="Show"><%= link_to 'Show', product %></span>
+              <span class="Edit"><%= link_to 'Edit', edit_product_path(product) %></span>
+              <span class="Delete"><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></span>
+            </div>
+          <% end %>
+        </span>
+      </div>
+    </div>
 
-  <tbody>
-    <% @products.each do |product| %>
-      <tr>
-        <td><%= product.name %></td>
-        <td><%= product.description %></td>
-        <td><%= product.image_url %></td>
-        <td><%= link_to 'Show', product %></td>
-        <td><%= link_to 'Edit', edit_product_path(product) %></td>
-        <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
 
 <br>
 
 <%= link_to 'New Product', new_product_path %>
-
-<% paragraph_number = 1 %>
