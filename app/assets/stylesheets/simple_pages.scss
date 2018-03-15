@@ -17,6 +17,10 @@ body{
 	background-color: #fffeea;
 }
 
+div#theBody{
+	margin:35px;
+}
+
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
@@ -25,7 +29,7 @@ body{
     margin : 0 25%;
 }
 
-img-responsive{
+.img-responsive{
 	background-color: #fffeea;
 }
 
