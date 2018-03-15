@@ -3,6 +3,7 @@ class SimplePagesController < ApplicationController
   end
 
   def landing_page
-  	@featured_product = Product.first
+  	@productsDisplay = Product.count
+  	@products = Product.limit(@productsDisplay/2)
   end
 end
