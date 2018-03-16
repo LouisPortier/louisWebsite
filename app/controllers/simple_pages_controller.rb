@@ -3,7 +3,6 @@ class SimplePagesController < ApplicationController
   end
 
   def landing_page
-  	@productsDisplay = Product.count
-  	@products = Product.limit(@productsDisplay/2)
+		@products = Product.order("RANDOM()").limit(Product.count/2)
   end
 end
