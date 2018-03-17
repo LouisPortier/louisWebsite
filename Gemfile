@@ -57,3 +57,5 @@ gem 'jquery-rails'
 gem 'devise'
 
 gem 'bcrypt', platforms: :ruby
+
+ gem 'cancancan', '~> 1.10'
