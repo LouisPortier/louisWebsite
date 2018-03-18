@@ -79,18 +79,20 @@ li>form{
 }
 
 #product{
-  float:left;
-  width: 45%;
+  text-align:Center;
   padding-right:10px;
-  display: inline-block;
-  border-right:1px solid #000;
 }
+
+#productInfo{
+  text-align:left;
+  display:inline-block;
+}
+
 .productImage{
-  float:left;
+  display:inline-block;
   padding-right:15px;
 }
 
-.reviews{
-  float:right;
+.addReview{
   width: 50%;
 }
