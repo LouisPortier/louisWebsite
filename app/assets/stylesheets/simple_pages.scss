@@ -78,3 +78,19 @@ li>form{
 	color: white;
 }
 
+#product{
+  float:left;
+  width: 45%;
+  padding-right:10px;
+  display: inline-block;
+  border-right:1px solid #000;
+}
+.productImage{
+  float:left;
+  padding-right:15px;
+}
+
+.reviews{
+  float:right;
+  width: 50%;
+}
