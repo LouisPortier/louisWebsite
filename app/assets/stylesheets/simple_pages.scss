@@ -2,14 +2,29 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$height-footer: 60px;
+
 *{
 	box-sizing: border-box;
 }
 
-html, body{
-	height: 100%;
-	margin: 0;
-	padding: 0;
+html {
+  min-height: 100%;
+  position: relative;
+  body {
+    margin-bottom: $height-footer;
+  }
+  #footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    height: $height-footer;
+    background-color: #222;
+    color:#fff;
+    .footer-block {
+      margin: 20px 0;
+    }
+  }
 }
 
 body{
@@ -33,12 +48,26 @@ nav{
 	background-color: #333;
 }
 
+.pull-right>li{
+  float: left;
+}
+
 .pull-right>li>a{
 	color:white;
-	padding: 3px 15px;
+  padding:15px;
 }
 .pull-right>li>a:hover{
 	background-color:#333;
+}
+
+li>form>label{
+  float: left;
+  margin:0px;
+  padding-right: 10px;
+}
+
+li>form{
+  padding:15px;
 }
 
 .louisPortfolio{
@@ -49,12 +78,3 @@ nav{
 	color: white;
 }
 
-footer{
-	bottom: 0;
-	width: 100%;
-	position: fixed;
-	padding: 40px 0 50px;
-	color: #fff;
-	text-align: center;
-	background-color: #222;
-}

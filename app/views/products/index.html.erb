@@ -1,6 +1,6 @@
-<p id="notice"><%= notice %></p>
+<%= link_to 'New Product', new_product_path, class: 'btn btn-default pull-right' %>
 
-<br/>
+
 <div class="container anchor" id="productList">
       <div class="row">
         <div class="headerTitle">
@@ -8,13 +8,10 @@
             <h1>List of products</h1>
           </div><br/>
         </div>
-        <span>
           <%= render @products %>
-        </span>
       </div>
     </div>
 
 
 <br>
 
-<%= link_to 'New Product', new_product_path %>

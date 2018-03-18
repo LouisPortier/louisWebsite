@@ -12,7 +12,7 @@
     
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <%= javascript_include_tag '/app/assets/javascripts/alert.js' %>
+
   </head>
 
   <body>
@@ -38,20 +38,18 @@
 						  <%= form.submit 'Search' %>
 						<% end %></li>
 						<li><%= link_to "Home", root_path %></li>
-						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#myWork">My Work</a></li>
-						<li><%= link_to "About", simple_pages_about_path %></li>
+						<li><%= link_to "Products", products_path %></li>
+						<li><%= link_to "About me", simple_pages_about_path %></li>
 						<li><%= link_to "Contact", simple_pages_contact_path %></li>
-						<li><a href="#faq">FAQ</a></li>
-						<li><a href="#video">Videos</a></li>
 					</ul>
 					<ul class="nav pull-right">
-					  <li>
+					  <li class="login">
 						  <% if user_signed_in? %>
 						    <%= link_to('Logout', destroy_user_session_path, method: :delete) %>
 						  <% else %>
-						    <%= link_to('Login', new_user_session_path) %>
-						    <%= link_to "Sign up", new_user_registration_path %>
+						    <%= link_to('Login', new_user_session_path) %><li>
+						    	
+						    <li><%= link_to "Sign up", new_user_registration_path %>
 						  <% end %>
 					  </li>
 					</ul>
@@ -67,8 +65,10 @@
 			<% end %>
     	<%= yield %>
     </div>
-    <footer>
-				Made By Louis Portier - &copy; 2018
-		</footer>
+		<div id="footer">
+    	<div class="container">
+     	 <p class="footer-block">Made By Louis Portier - © 2018</p>
+    	</div>
+  	</div>
   </body>
 </html>
