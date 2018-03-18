@@ -10,7 +10,7 @@ class UserMailer < ApplicationMailer
 
   def subscription(email)
   @message = message,
-    mail(from: "louisportier@ymail.com"),
+    mail(from: "louisportier@ymail.com",
          to: email,
          subject: "Welcome to my website !")
   end
