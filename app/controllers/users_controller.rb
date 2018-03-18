@@ -26,7 +26,7 @@ class UsersController < ApplicationController
   # POST /users.json
   def create
     @user = User.new(user_params)
-    UserMailer.subscription(@user.email)
+    UserMailer.subscription(params[:email])
     respond_to do |format|
       if @user.save
         format.html { redirect_to @user, notice: 'User was successfully created.' }
@@ -37,7 +37,7 @@ class UsersController < ApplicationController
       end
     end
 
-    
+
   end
 
   # PATCH/PUT /users/1
