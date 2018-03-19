@@ -100,8 +100,16 @@ li>form{
   padding-top:15px;
   padding-bottom:15px;
   margin-top:25px;
+  margin-bottom:25px;
 }
 
 .addReview{
   width:40%;
+}
+.pagination>a{
+  color:white;
+  text-decoration:underline;
+}
+.pagination>.disabled{
+  font-weight: bolder;
 }
