@@ -10,7 +10,7 @@ class UserMailer < ApplicationMailer
 
   def welcome(user)
     mail(from: "louisportier@ymail.com",
-      to: email,
+      to: user.email,
       subject: "Welcome to my website !")
   end
 end
