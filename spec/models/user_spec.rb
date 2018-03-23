@@ -1,11 +1,8 @@
-require 'rails_helper'
+require "rails_helper"
 
-describe User do
-	context "User don't have a password" do
-
-		it "is not valid" do
-			expect(User.new(email: "test@email.com")).not_to be_valid
-		end
-
+describe User, type: :model do
+	it "should not validate users without an email address" do
+		@user = FactoryBot.build(:user, email: "not_an_email")
+		expect(@user).to_not be_valid
 	end
 end
