@@ -1,5 +1,5 @@
 <div class='col-sm-2 col-md-4 products'>
-	<%= image_tag(product.image_url, class: "img-responsive img-zoom", data_zoom_image:product.image_url) if product&.image_url %>
+	<%= image_tag(product.image_url, class: "img-responsive img-zoom", height: '350', width: '350', data_zoom_image:product.image_url) if product&.image_url %>
   <span class="productName"><%= product.name %></span><br/>
   <span class="colour"><%= product.colour %></span><br/>
   <span class="productPrice"><%= product.price %>$</span><br/>
