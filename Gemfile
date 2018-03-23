@@ -61,9 +61,10 @@ gem 'devise'
 gem 'bcrypt', platforms: :ruby
 
 
- gem 'cancancan', '~> 1.10'
+gem 'cancancan', '~> 1.10'
 
- gem 'will_paginate', '~> 3.1.0'
+gem 'will_paginate', '~> 3.1.0'
 
- gem 'rails-controller-testing'
+gem 'rails-controller-testing'
 
+gem 'stripe'
