@@ -1,0 +1,340 @@
+/* line 5, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/products.scss */
+.products {
+  padding-top: 10px;
+}
+
+/* line 9, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/products.scss */
+.productName {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* line 14, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/products.scss */
+.productDesc {
+  font-style: italic;
+}
+
+/* line 18, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/products.scss */
+.productPrice {
+  font-weight: bold;
+}
+
+/* line 22, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/products.scss */
+div#theBody {
+  margin: 35px;
+}
+
+/* line 26, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/products.scss */
+#theBody > form {
+  background-color: #2f3638;
+  width: 50%;
+  padding: 20px;
+}
+
+/* line 32, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/products.scss */
+#theBody > div > form {
+  background-color: #2f3638;
+  width: 50%;
+  padding: 20px;
+}
+
+/* line 38, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/products.scss */
+label {
+  color: white;
+}
+/* line 1, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 24, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 28, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 34, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 38, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding: 0 5px 7px;
+}
+
+/* line 43, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 48, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 52, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 58, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 65, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 75, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 81, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+/* line 7, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 11, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+html {
+  min-height: 100%;
+  position: relative;
+}
+/* line 14, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+html body {
+  margin-bottom: 60px;
+}
+/* line 17, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+html #footer {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  height: 60px;
+  background-color: #222;
+  color: #fff;
+}
+/* line 24, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+html #footer .footer-block {
+  margin: 20px 0;
+}
+
+/* line 30, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+body {
+  padding-top: 50px;
+  background-color: #fffeea;
+}
+
+/* line 35, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+div#theBody {
+  margin: 35px;
+}
+
+/* line 39, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+.carousel-inner > .item > img {
+  margin: 0 auto;
+}
+
+/* line 43, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+.img-responsive {
+  background-color: #fffeea;
+}
+
+/* line 47, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+nav {
+  background-color: #333;
+}
+
+/* line 51, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+.pull-right > li {
+  float: left;
+}
+
+/* line 55, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+.pull-right > li > a {
+  color: white;
+  padding: 15px;
+}
+
+/* line 59, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+.pull-right > li > a:hover {
+  background-color: #333;
+}
+
+/* line 63, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+li > form > label {
+  float: left;
+  margin: 0px;
+  padding-right: 10px;
+}
+
+/* line 69, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+li > form {
+  padding: 15px;
+}
+
+/* line 73, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+.louisPortfolio {
+  text-transform: uppercase;
+}
+
+/* line 77, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+.louisPortfolio a {
+  color: white;
+}
+
+/* line 81, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+#productAll {
+  text-align: Center;
+  padding-right: 10px;
+}
+
+/* line 86, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+#productInfo {
+  text-align: left;
+  display: inline-block;
+}
+
+/* line 91, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+.productImage {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+/* line 96, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+.comments {
+  background-color: #2f3638;
+  color: white;
+  padding-left: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* line 106, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+.destroyComment {
+  color: red;
+}
+
+/* line 110, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+.addReview {
+  width: 40%;
+}
+
+/* line 113, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+.pagination > a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* line 117, C:/Users/Louis/Documents/CareerFoundry/louisWebsite/app/assets/stylesheets/simple_pages.scss */
+.pagination > .disabled {
+  font-weight: bolder;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+
+ */
+
+.cancel-on-png, .cancel-off-png, .star-on-png, .star-off-png, .star-half-png {
+  font-size: 2em;
+}
+
+@font-face {
+  font-family: "raty";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/raty.eot");
+  src: url("./fonts/raty.eot?#iefix") format("embedded-opentype");
+  src: url("./fonts/raty.svg#raty") format("svg");
+  src: url("./fonts/raty.ttf") format("truetype");
+  src: url("./fonts/raty.woff") format("woff");
+}
+
+.cancel-on-png, .cancel-off-png, .star-on-png, .star-off-png, .star-half-png {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "raty";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
+}
+
+.cancel-on-png:before {
+  content: "\e600";
+}
+
+.cancel-off-png:before {
+  content: "\e601";
+}
+
+.star-on-png:before {
+  content: "\f005";
+}
+
+.star-off-png:before {
+  content: "\f006";
+}
+
+.star-half-png:before {
+  content: "\f123";
+}
