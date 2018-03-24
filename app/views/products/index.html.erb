@@ -3,15 +3,17 @@
 <% end %>
 
 <div class="container anchor" id="productList">
-      <div class="row">
-        <div class="headerTitle">
-          <div class="header">
-            <h1>List of products</h1>
-          </div><br/>
-        </div>
-          <%= render @products %>
-      </div>
-    </div>
+			<div class="row">
+				<div class="headerTitle">
+					<div class="header">
+						<h1>List of products</h1>
+					</div><br/>
+				</div>
+				<% cache(cache_key_for_products) do %>
+					<%= render @products %>
+				<% end %>
+			</div>
+		</div>
 
 
 <br>
