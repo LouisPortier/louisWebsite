@@ -26,6 +26,7 @@ describe ProductsController, type: :controller do
       @admin = FactoryBot.create(:admin)
       @user = FactoryBot.create(:user)
     end
+
     context "If user is admim" do
       before do
         sign_in @admin
@@ -36,6 +37,7 @@ describe ProductsController, type: :controller do
         expect(response).to render_template("new")
       end
     end
+
     context "If user isn't admin" do
       before do
         sign_in @user
@@ -54,6 +56,7 @@ describe ProductsController, type: :controller do
       @admin = FactoryBot.create(:admin)
       @user = FactoryBot.create(:user)
     end
+
     context "If user is admin" do
       before do
         sign_in @admin
@@ -64,6 +67,7 @@ describe ProductsController, type: :controller do
         expect(response).to render_template("edit")
       end
     end
+
     context "If user not admin" do
       before do
         sign_in @user
@@ -74,6 +78,7 @@ describe ProductsController, type: :controller do
         expect(response).to redirect_to(root_path)
       end
     end
+    
     context "If user not logged in" do
       it "redirects to home page" do
         get :edit, params: {id: @product.id}

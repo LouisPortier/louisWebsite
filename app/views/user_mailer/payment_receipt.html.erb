@@ -1,0 +1,17 @@
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <h2>Hi, Mr
+          <%= @purchaser.last_name %></h2>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Congratualation on the purchase of
+          <%= @purchased_product.name %>, and total expenses: $
+          <%= @purchased_product.price %></p>
+      </td>
+    </tr>
+  </tbody>
+</table>

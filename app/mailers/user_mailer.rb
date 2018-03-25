@@ -13,4 +13,11 @@ class UserMailer < ApplicationMailer
       to: user.email,
       subject: "Welcome to my website !")
   end
+
+  def payment_receipt(user, product)
+    @purchaser = user
+    @purchased_product = product
+    mail(to: user.email,
+    subject: "Payment Receipt")
+  end
 end

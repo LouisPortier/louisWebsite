@@ -3,7 +3,6 @@ module ApplicationCable
     identified_by :current_user
 
     def connect
-      self.current_user = find_verified_user
     end
 
     def disconnect
@@ -19,5 +18,8 @@ module ApplicationCable
         end #if
       end #method
 
+      def connect
+        self.current_user = find_verified_user
+      end
   end  #class
 end #module
