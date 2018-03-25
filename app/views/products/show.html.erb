@@ -31,6 +31,7 @@
         <% end %>  
         
         <% if current_user && current_user.admin? %>
+          Views: <%= @product.views %><br/>
           <%= link_to 'Edit', edit_product_path(@product),class: 'btn btn-default' %> 
         <% end %>
         <%= link_to 'Back', products_path, class: 'btn btn-default' %> 
